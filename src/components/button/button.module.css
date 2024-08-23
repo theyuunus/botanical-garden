@@ -1,0 +1,40 @@
+.button {
+    padding: 20px 40px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.button-primary {
+    color: var(--light);
+    background-color: var(--primary);
+    border: none;
+}
+
+.button-primary:hover {
+    background-color: rgb(84, 117, 82);
+}
+
+.button-primary:active {
+    background-color: var(--primary);
+}
+
+.button-secondary {
+    color: var(--primary);
+    background: transparent;
+    border: 3px solid rgb(71, 95, 69);
+}
+
+.button-secondary:hover {
+    color: rgb(84, 117, 82);
+    border-color: rgb(84, 117, 82);
+}
+
+.button-secondary:active {
+    color: var(--primary);
+    border-color: rgb(71, 95, 69);
+}
