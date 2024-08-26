@@ -16,6 +16,7 @@ const Button = ({
                 ${ButtonStyles["button"]}
                 ${buttonType === "primary" ? ButtonStyles["button-primary"] : ""}
                 ${buttonType === "secondary" ? ButtonStyles["button-secondary"] : ""}  
+                ${buttonType === "white" ? ButtonStyles["button-white"] : ""}  
                 `}
             type={type}
             onClick={onClick}

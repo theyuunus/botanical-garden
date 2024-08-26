@@ -1,18 +1,19 @@
 import React from "react";
 import NavbarStyles from './navbar.module.css'
 import Components from "@/components/index"
-import logo from "@/images/logo.png"
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
     return (
         <Components.Container>
             <div className={NavbarStyles["navbar"]}>
                 <div className={NavbarStyles["navbar-logo"]}>
-                    <img
-                        src={logo}
+                    <Image
+                        src="/logo.svg"
+                        width={59}
+                        height={59}
                         alt="logo"
-                        className={NavbarStyles["navbar-logo-img"]}
                     />
                     <div className={NavbarStyles["navbar-logo-container"]}>
                         <h1>Mist Gardens</h1>
