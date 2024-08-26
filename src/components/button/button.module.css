@@ -1,5 +1,4 @@
 .button {
-    padding: 20px 40px;
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
@@ -13,6 +12,7 @@
     color: var(--light);
     background-color: var(--primary);
     border: none;
+    padding: 20px 40px;
 }
 
 .button-primary:hover {
@@ -27,6 +27,7 @@
     color: var(--primary);
     background: transparent;
     border: 3px solid rgb(71, 95, 69);
+    padding: 18px 40px;
 }
 
 .button-secondary:hover {
@@ -37,4 +38,11 @@
 .button-secondary:active {
     color: var(--primary);
     border-color: rgb(71, 95, 69);
+}
+
+.button-white {
+    color: var(--light);
+    background: transparent;
+    border: 3px solid var(--light);
+    padding: 18px 40px;
 }

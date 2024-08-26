@@ -13,9 +13,10 @@ const Footer = () => {
                         <div className={FooterStyles["footer-left"]}>
                             <div className={FooterStyles["footer-logo"]}>
                                 <img
-                                    src={logo}
+                                    src="/logo-white.svg"
+                                    width={59}
+                                    height={59}
                                     alt="logo"
-                                    className={FooterStyles["footer-logo-img"]}
                                 />
                                 <div className={FooterStyles["footer-logo-container"]}>
                                     <h1>Mist Gardens</h1>
